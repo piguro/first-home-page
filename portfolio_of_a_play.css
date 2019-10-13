@@ -129,7 +129,7 @@
     }
 
     .menu-a{
-        z-index: 4;
+        z-index: 101;
         position: fixed;
         right: -50%;
         box-sizing: border-box;
@@ -259,7 +259,7 @@
         /* overflow: hidden !important; */
         }
     .open-cover-menu{
-        z-index: 2!important;
+        z-index: 100!important;
         pointer-events: auto !important;
         background-color: rgba(0, 0, 0, 0.2);
         backdrop-filter: blur(20px);
