@@ -125,6 +125,7 @@
         transform-origin: left top;
         transform: scale(1.5);
         color: rgb(255, 153, 0);
+
     }
 
     .menu-a{
@@ -617,7 +618,8 @@
         grid-column: 3 / 6;
         grid-row: 3;
         color: white;
-        font-size: 0.1vw;
+        white-space: nowrap;
+        font-size: 12px;
     }
 
     footer > a{
