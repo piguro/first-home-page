@@ -93,7 +93,6 @@
         backdrop-filter: blur(50px);
         -webkit-backdrop-filter: blur(50px);
         -moz-backdrop-filter: blur(50px);
-        -ms-backdrop-filter: blur(50px);
         backdrop-filter: blur(50px);
         /* border-bottom: 4px solid rgb(0, 0, 0); */
     }
@@ -562,6 +561,58 @@
         border-bottom: 1px solid rgb(255, 255, 255);
     }
 
+    .content div{
+        margin-right: 2px;
+        /* margin-left: 20px; */
+    }
+
+    .content > div > p{
+        font-size: 15px;
+        color: rgb(214, 214, 214);
+    }
+
+    .content > img {
+        height: 80px;
+        height: 80px;
+        border-radius: 10px;
+        margin: 8px;
+        vertical-align: bottom;
+    }
+    
+    .content > a{
+        text-decoration: none;
+        display: grid;
+        grid-template-columns: 80px 10px 1fr ;
+        grid-template-rows: 20px 70px 10px 20px;
+    }
+
+    .content > a > img {
+        /* height: 80px;
+        height: 80px;
+        border-radius: 10px;
+        margin: 8px; */
+        border-radius: 10px;
+        height: 80px;
+        width: auto;
+        grid-column: 1 / 2;
+        grid-row: 2 / 4;
+        vertical-align: bottom;
+    }
+
+    .content > a > p{
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+        font-size: 15px;
+        color: rgb(214, 214, 214);
+    }
+
+    .content > a > div{
+        grid-column: 3 / 4;
+        grid-row: 3 / 4;
+    }
+
+
+
     .content_info > p{
         /* box-shadow: 7px 7px 5px rgba(31, 30, 28, 0.3); */
         padding: 15px 0px;
@@ -588,24 +639,6 @@
     .content_info > p:last-child{
         border-bottom: none;
         padding-bottom: 120px;
-    }
-
-    .content div{
-        margin-right: 2px;
-        /* margin-left: 20px; */
-    }
-
-    .content > div > p{
-        font-size: 15px;
-        color: rgb(214, 214, 214);
-    }
-
-    .content > img {
-        height: 80px;
-        height: 80px;
-        border-radius: 10px;
-        margin: 8px;
-        vertical-align: bottom;
     }
 
     .category{
