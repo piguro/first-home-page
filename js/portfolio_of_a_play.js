@@ -189,7 +189,6 @@
         pauseOnHover:false,
         pauseOnFocus:false,
         // dotsClass: 'slick-dot',
-
     });
 
 
