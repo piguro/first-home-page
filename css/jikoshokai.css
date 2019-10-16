@@ -1,4 +1,6 @@
 *{
+    font-family: 'Sacramento', cursive;
+    font-family: 'M PLUS 1p', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -238,6 +240,40 @@ header > a > img{
     background-position: center;
     background-blend-mode: multiply; */
 }
+
+.first-title{
+    display: block;
+    background:linear-gradient(90deg,rgba(255, 193, 100,1),rgba(252, 255, 100, 1));
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.main-p{
+    margin: 0 30px;
+}
+
+.main-p > p{
+    text-align: left;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.shumi{
+    margin-left: 40px;
+    color: white;
+    list-style: circle;
+}
+
+
+
+
+
+
+
+
 
 footer{
     background-color: black;
